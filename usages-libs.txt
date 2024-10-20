@@ -1,0 +1,1 @@
+yarn add uuid && yarn add -D @types/uuid - библиотека для назначения id пользователей
