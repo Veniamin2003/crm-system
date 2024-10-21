@@ -1,8 +1,11 @@
 <script setup lang="ts">
-	// import {useAuthStore, useIsLoadingStore} from "#build/store/auth.store";
-	// import {useRouter} from "nuxt/app";
-	// import {account} from "#build/.nuxt/imports";
+	import {useAuthStore, useIsLoadingStore} from "#build/store/auth.store";
+	import {useRouter} from "nuxt/app";
+	
 	import {v4 as uuid} from "uuid";
+	import {account} from "~/utils/appwrite";
+	import {useSeoMeta} from "unhead";
+	import {ref} from "@vue/reactivity";
 	
 	useSeoMeta({
 		title: 'Login',

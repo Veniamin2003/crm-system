@@ -1,6 +1,6 @@
 <template>
 	<div class="wrapper">
-		<NuxtImg src="/loader.svg" alt="Loader" />
+		<NuxtImg src="/loader.svg" alt="Loader" width="200"/>
 	</div>
 </template>
 
